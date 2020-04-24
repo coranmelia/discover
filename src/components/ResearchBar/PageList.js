@@ -1,0 +1,57 @@
+// import Banner from "../../assets/svg/banner.svg";
+import Pro from "../../assets/imgs/0.png";
+import Exp from "../../assets/imgs/1.png";
+import Gen from "../../assets/imgs/2.png";
+import Eva from "../../assets/imgs/7.png";
+import Sol from "../../assets/imgs/4.png";
+
+export default [
+    {
+        id: 1,
+        url: "problem",
+        name: "PROBLEM SPACE",
+        photo: Pro,
+        keyLine: "Discover Student Loans aims to optimize the overall student loan conversion " +
+            "by improving the product selection experience. In our MHCI Capstone project, we are " +
+            "interested in investigating what prevents customers from committing to one of Discover’s " +
+            "student loan products? How might we address their needs and concerns?"
+    },
+    {
+        id: 2,
+        url:"exploratory",
+        name: "EXPLORATORY RESEARCH",
+        photo: Exp,
+        keyLine: "Discover Student Loans aims to optimize the overall student loan conversion " +
+            "by improving the product selection experience. In our MHCI Capstone project, we are " +
+            "interested in investigating what prevents customers from committing to one of " +
+            "Discover’s student loan products? How might we address their needs and concerns?"
+    },
+    {
+        id: 3,
+        url:"generative",
+        name: "GENERATIVE RESEARCH",
+        photo: Gen,
+        keyLine: "Generative research is about reseach, insight, and reframing. " +
+            "We aim to give the client a different way of thinking about their problem and " +
+            "equip them with an artifact they can use to tell a compelling story about? " +
+            "We conducted multiple rounds of generative research to reframe the problem and" +
+            " to invoke insights."
+    },
+    {
+        id: 4,
+        url:"evaluative",
+        name: "EVALUATIVE RESEARCH",
+        photo: Eva,
+        keyLine: "Evaluative research is about synthesis, ideation, rapid prototyping. " +
+            "How might we convert our research insights into feasible design solutions? " +
+            "We brainstormed design opportunities, drew storyboards, and sketch prototypes " +
+            "to quickly validate user needs and test design solutions. "
+    },
+    {
+        id: 5,
+        url:"solution",
+        name: "SOLUTION SPACE",
+        photo: Sol,
+        keyLine: "Solution Description"
+    },
+];

@@ -1,0 +1,12 @@
+.navbar-brand {
+  height: 100px;
+}
+
+.navbar-brand img {
+  height: 20px;
+  margin-top: 32px;
+}
+
+.nav-item {
+  font-family: 'Open Sans SemiBold', sans-serif;
+}
