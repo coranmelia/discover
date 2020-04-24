@@ -1,7 +1,7 @@
 # MHCI Responsive Website
 
 
-This project maintains the progress report of MHCI Discover Team. See the website at [http://coranmelia.github.io/discover](http://coranmelia.github.io/discover)
+This project hosts a responsive website of MHCI Discover Team. See the website at [http://coranmelia.github.io/discover](http://coranmelia.github.io/discover)
 
 To use this template:
 
