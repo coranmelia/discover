@@ -1,7 +1,7 @@
 # MHCI Responsive Website
 
 
-This project is a starter example of what to do for SSUI HW6 and the final project. See the finished result at [http://coranmelia.github.io/discover](http://coranmelia.github.io/discover)
+This project maintains the progress report of MHCI Discover Team. See the website at [http://coranmelia.github.io/discover](http://coranmelia.github.io/discover)
 
 To use this template:
 
