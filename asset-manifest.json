@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/discover/static/css/main.2aa59404.chunk.css",
-    "main.js": "/discover/static/js/main.275a4baf.chunk.js",
-    "main.js.map": "/discover/static/js/main.275a4baf.chunk.js.map",
-    "runtime-main.js": "/discover/static/js/runtime-main.d800e714.js",
-    "runtime-main.js.map": "/discover/static/js/runtime-main.d800e714.js.map",
+    "main.js": "/discover/static/js/main.b42e41eb.chunk.js",
+    "main.js.map": "/discover/static/js/main.b42e41eb.chunk.js.map",
+    "runtime-main.js": "/discover/static/js/runtime-main.a2874e06.js",
+    "runtime-main.js.map": "/discover/static/js/runtime-main.a2874e06.js.map",
     "static/css/2.7a75a24e.chunk.css": "/discover/static/css/2.7a75a24e.chunk.css",
-    "static/js/2.79b561e4.chunk.js": "/discover/static/js/2.79b561e4.chunk.js",
-    "static/js/2.79b561e4.chunk.js.map": "/discover/static/js/2.79b561e4.chunk.js.map",
+    "static/js/2.890b0075.chunk.js": "/discover/static/js/2.890b0075.chunk.js",
+    "static/js/2.890b0075.chunk.js.map": "/discover/static/js/2.890b0075.chunk.js.map",
     "index.html": "/discover/index.html",
-    "precache-manifest.700af6d426223071bfee280273eb3f97.js": "/discover/precache-manifest.700af6d426223071bfee280273eb3f97.js",
+    "precache-manifest.b9aacaec24c20d6c33233bc4a7e5e849.js": "/discover/precache-manifest.b9aacaec24c20d6c33233bc4a7e5e849.js",
     "service-worker.js": "/discover/service-worker.js",
     "static/css/2.7a75a24e.chunk.css.map": "/discover/static/css/2.7a75a24e.chunk.css.map",
     "static/css/main.2aa59404.chunk.css.map": "/discover/static/css/main.2aa59404.chunk.css.map",
-    "static/js/2.79b561e4.chunk.js.LICENSE.txt": "/discover/static/js/2.79b561e4.chunk.js.LICENSE.txt",
+    "static/js/2.890b0075.chunk.js.LICENSE.txt": "/discover/static/js/2.890b0075.chunk.js.LICENSE.txt",
     "static/media/0.png": "/discover/static/media/0.181ef346.png",
     "static/media/1.png": "/discover/static/media/1.b1f04b42.png",
     "static/media/2.png": "/discover/static/media/2.b9fdb4b7.png",
@@ -30,10 +30,10 @@
     "static/media/team.png": "/discover/static/media/team.3df3166e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d800e714.js",
+    "static/js/runtime-main.a2874e06.js",
     "static/css/2.7a75a24e.chunk.css",
-    "static/js/2.79b561e4.chunk.js",
+    "static/js/2.890b0075.chunk.js",
     "static/css/main.2aa59404.chunk.css",
-    "static/js/main.275a4baf.chunk.js"
+    "static/js/main.b42e41eb.chunk.js"
   ]
 }
