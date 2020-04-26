@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45aebad3e9a795627b280e46e2017f0e",
+    "revision": "e335f78286943e928e5b2a51d41e169f",
     "url": "/discover/index.html"
   },
   {
-    "revision": "efd4e7adfce6817b81c2",
+    "revision": "6fe1b8c1eda8a40cd20c",
     "url": "/discover/static/css/2.7a75a24e.chunk.css"
   },
   {
-    "revision": "af41066d9662cd2fb80a",
-    "url": "/discover/static/css/main.bcdee5aa.chunk.css"
+    "revision": "ee1d01676c591400dd60",
+    "url": "/discover/static/css/main.d652cc7b.chunk.css"
   },
   {
-    "revision": "efd4e7adfce6817b81c2",
-    "url": "/discover/static/js/2.c9b16667.chunk.js"
+    "revision": "6fe1b8c1eda8a40cd20c",
+    "url": "/discover/static/js/2.8677cae8.chunk.js"
   },
   {
-    "revision": "7e08df03892269e6e39da8a34916b217",
-    "url": "/discover/static/js/2.c9b16667.chunk.js.LICENSE.txt"
+    "revision": "3f7f2125288ffc0147e8780ccab01198",
+    "url": "/discover/static/js/2.8677cae8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "af41066d9662cd2fb80a",
-    "url": "/discover/static/js/main.22cd43c6.chunk.js"
+    "revision": "ee1d01676c591400dd60",
+    "url": "/discover/static/js/main.a70b90ce.chunk.js"
   },
   {
     "revision": "8f3c80e87321d650f649",
     "url": "/discover/static/js/runtime-main.4027fe92.js"
   },
   {
-    "revision": "181ef3462c28b9ee88dacea5d9fd8bfd",
-    "url": "/discover/static/media/0.181ef346.png"
+    "revision": "de948c320509cd3d5cb286fffed538f6",
+    "url": "/discover/static/media/0.de948c32.png"
   },
   {
     "revision": "b1f04b4268474d77cbdc93e616b2b4d1",
@@ -100,12 +100,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/discover/static/media/bidisha.df7c8de2.png"
   },
   {
+    "revision": "2460157a022695d4cbfbe72b45c92fde",
+    "url": "/discover/static/media/card1.2460157a.png"
+  },
+  {
+    "revision": "9f8e1c0033439625372ff47e40697aed",
+    "url": "/discover/static/media/card2.9f8e1c00.png"
+  },
+  {
     "revision": "37398961d22240288aa3df500998229e",
     "url": "/discover/static/media/cora.37398961.jpg"
   },
   {
     "revision": "808097fdd9261660a6e5ed0b4e1fe14d",
     "url": "/discover/static/media/jackie.808097fd.png"
+  },
+  {
+    "revision": "c709f58c14409228a5f1bd6bdfff3dc3",
+    "url": "/discover/static/media/like.c709f58c.svg"
   },
   {
     "revision": "536cfe84784335b4798f7b0b23e00a11",
