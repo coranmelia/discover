@@ -23,6 +23,7 @@ class Tab extends Component {
             props: {
                 activeTab,
                 label,
+                title
             },
         } = this;
 
@@ -37,7 +38,8 @@ class Tab extends Component {
                 className={ className }
                 onClick={ onClick }
             >
-                <img src={label}/>
+                <h4>{title}</h4>
+                {/*<img src={label}/>*/}
             </li>
         );
     }

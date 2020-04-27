@@ -7,6 +7,12 @@ import ResearchTitleList from "../../../components/ResearchBar/PageList";
 import ResearchBar from "../../../components/ResearchBar/ResearchBar";
 import "../Research.scss";
 import PhotoZoom from "../../../components/PhotoZoom/PhotoZoom";
+import Opportunity from "../../../assets/svg/opportunity.svg";
+import Tabs from "../../../components/Tabs/Tabs";
+import Frame from  "../../../assets/svg/Frame.svg";
+import SM1 from "../../../assets/artifacts/sm1.png";
+import SM2 from "../../../assets/artifacts/sm2.png";
+import JM from "../../../assets/artifacts/jm.png";
 
 const ResearchExp = () => {
   const id = 2;
@@ -33,6 +39,8 @@ const ResearchExp = () => {
         <br/>
         <div className="container">
             <ResearchBar activeElement={id}></ResearchBar>
+<Tabs>
+            <div label={Opportunity} title={"RESEARCH PROCESS"}>
             <div className="phase">
                 <span><h2 className="col-12">How might we dive into the problem?</h2></span>
                 <div className="row">
@@ -102,7 +110,35 @@ const ResearchExp = () => {
                     </div>
                 </div>
             </div>
+            </div>
+    <div label={Frame} title={"INSIGHTS & OPPORTUNITIES"}>
+        <div className="phase">
+            <span><h2 className="col-12">Stakeholder Map & Customer Journey Map</h2></span>
+            <div className="row">
+                <p>We created 2 stakeholder maps to form a full understanding of the stakeholders involved,
+                    their relationships, and the ways in which they exchange value. In the same vein, after
+                    some primary research, we created a customer journey map to better understand a customer’s
+                    “journey” through student loan applications in order to identify the larger use context
+                    as well as emotions, pain points, and solution opportunities for customer actions.</p>
+            </div>
+            <div className="row conceptual">
+                <div className="col-sm-12 col-md-6 col-lg-6">
+                    <PhotoZoom src={SM1} alt={"SM1"}/>
+                </div>
+                <div className="col-sm-12 col-md-6 col-lg-6">
+                    <PhotoZoom src={SM2} alt={"SM2"}/>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-12">
+                    <PhotoZoom src={JM} alt={"JM"}/>
+                </div>
+            </div>
         </div>
+    </div>
+</Tabs>
+        </div>
+
       </div>
   );
 };
