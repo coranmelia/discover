@@ -1,8 +1,9 @@
 import React from "react";
 import { useParams } from "react-router";
-import "./ResearchPhase.css";
+import "./ResearchPhase.scss";
 import ResearchTitleList from "../../../components/ResearchBar/PageList";
 import ResearchBar from "../../../components/ResearchBar/ResearchBar";
+import "../Research.scss";
 
 const ResearchEval = () => {
   const id = 4;
@@ -14,20 +15,23 @@ const ResearchEval = () => {
       <div className="research">
           <div className="BannerImage">
               <img style={{ width: "100%" }} src={photo} alt={name} />
-              <p className="IntroText">
-                  {keyLine}
-              </p>
           </div>
           <div className="Banner">
               <div className="BannerTextContainer">
                   <div className="BannerText">{name}</div>
+                  <div className="break"></div>
+              </div>
+              <div className="IntroContainer row">
+                  <p className="IntroText">
+                      {keyLine}
+                  </p>
               </div>
           </div>
         <br/>
         <div className="container">
             <ResearchBar activeElement={id}></ResearchBar>
             <div className="row">
-                <h2>What problem are we solving?</h2>
+                <h2>Coming Soon in May :)</h2>
             </div>
         </div>
       </div>

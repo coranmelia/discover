@@ -102,13 +102,13 @@ class Cards extends React.Component {
                     <button className="slider-btn btn-r" onClick={() => this.handleClick('next')}><span></span></button>
                 </div>
 
-                <div className="pagetitle">
-                    <div className="pagetitle-text">
-                        <div className="bar"></div>
-                        <h1>Some Insights for Your Next Visit</h1>
-                        <div className="bar"></div>
-                    </div>
-                </div>
+                {/*<div className="pagetitle">*/}
+                {/*    <div className="pagetitle-text">*/}
+                {/*        <div className="bar"></div>*/}
+                {/*        <h1>Some Insights for Your Next Visit</h1>*/}
+                {/*        <div className="bar"></div>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
 
                 <div className="cardWrapper">
                     <Card cardStyle={this.state.cardStyle} />

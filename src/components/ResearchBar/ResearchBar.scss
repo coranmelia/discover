@@ -1,8 +1,4 @@
-$default-title: #6B6B6B;
-$default-text: #FE6C41;
-$active-text: #FFF;
-$active-bg: $default-text;
-$color: #999;
+@import '../../assets/styles/colors';
 
 .research_container {
   position: relative;
@@ -41,28 +37,29 @@ $color: #999;
       font-family: 'Open Sans SemiBold', sans-serif;
     }
 
-    &::before {
-      top: 50%;
-      right: 6px;
-      width: 10px;
-      height: 10px;
-      content: '';
-      position: absolute;
-      transform: rotate(-45deg);
-      box-shadow: 2px 2px 0 $color, 3px 2px 0 $color, 2px 3px 0 $color, 3px 3px 0 $color;
-    }
-    &:last-child:before{
-      content: none;
-      box-shadow:none;
-    }
+    //&::before {
+    //  z-index: 11;
+    //  top: 50%;
+    //  right: 6px;
+    //  width: 10px;
+    //  height: 10px;
+    //  content: '';
+    //  position: absolute;
+    //  transform: rotate(-45deg);
+    //  box-shadow: 2px 2px 0 $color, 3px 2px 0 $color, 2px 3px 0 $color, 3px 3px 0 $color;
+    //}
+    //&:last-child::before{
+    //  content: none;
+    //  box-shadow:none;
+    //}
   }
 
   .active {
     position: relative;
-    width: 70%;
+    width: 90%;
     height: 175px;
     padding-top: 30px;
-    margin: -30px 30px;
+    margin: -30px 0px;
     border-radius: 3px;
 
     background: $active-bg;
@@ -72,5 +69,35 @@ $color: #999;
     p {
       color: $active-text;
     }
+  }
+}
+.showOnSmall {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .research_container p{
+    font-size: 15px !important;
+  }
+}
+@media (max-width: 767px) {
+
+  .research_container {
+    height: 90px;
+
+    .active {
+      height: 125px;
+    }
+
+    p {
+      display: none;
+    }
+  }
+  .showOnSmall{
+    margin-top: 40px;
+    margin-left: 2px;
+    font-weight: 600;
+    color: $default-text;
+    display: block;
   }
 }

@@ -1,0 +1,18 @@
+@import "../../assets/styles/colors";
+
+.about {
+  .BannerText {
+    width: 80%;
+  }
+  .BannerText, .IntroText{
+    color: $default-headline !important;
+  }
+  .container {
+    margin-top: 80px;
+  }
+  .person {
+    .padder{
+      height: 50px;
+    }
+  }
+}

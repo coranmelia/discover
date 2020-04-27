@@ -1,7 +1,7 @@
 // import React from "react";
 // import Vader from "../../assets/svg/banner.svg";
 // import YouTube from "react-youtube";
-// import "./HomePage.css";
+// import "./HomePage.scss";
 //
 // const homePage = () => {
 //     const _onReady = event => {
@@ -83,7 +83,7 @@
 import React from "react";
 import Banner from '../../assets/svg/banner.svg';
 import ResearchBar from "../../components/ResearchBar/ResearchBar.js"
-import "./HomePage.css";
+import "./HomePage.scss";
 
 export default class homePage extends React.Component{
 
@@ -103,6 +103,7 @@ export default class homePage extends React.Component{
               <div className="Banner">
                   <div className="BannerTextContainer">
                       <div className="BannerText">Do you understand your student loan?</div>
+                      <div className="break"></div>
                   </div>
               </div>
               <br/>

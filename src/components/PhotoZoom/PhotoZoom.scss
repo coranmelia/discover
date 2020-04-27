@@ -1,0 +1,26 @@
+.photoZoom{
+  img {
+    cursor: zoom-in;
+    display: block;
+    max-width: 100%;
+    z-index: 21;
+    margin: auto;
+  }
+
+  img.zoomed {
+    cursor: zoom-out;
+  }
+
+  .frame {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+    display: none;
+    background: white;
+    transform: translateZ(0);
+  }
+
+}

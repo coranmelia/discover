@@ -25,6 +25,17 @@
     align-items: center;
   }
 
+  .IntroContainer {
+    position: absolute;
+    top:75%;
+    left: 10%;
+    width: 30%;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
   .BannerText {
     color: #fff;
     width: 50%;
@@ -35,10 +46,10 @@
 
   .IntroText {
     position: absolute;
-    top: 5%;
-    left: 5%;
-    right: 50%;
-    font-size: 1rem;
+    bottom: 0;
+    left: 4%;
+    right: 10%;
+    font-size: 0.75rem;
     color: #fff;
   }
 
@@ -48,9 +59,28 @@
     margin: 20px;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (min-width: 767px) and (max-width: 1199px) {
+    .IntroContainer {
+      width: 40% !important;
+    }
+  }
+  @media screen and (max-width: 767px) {
     .Banner {
       height: 300px;
     }
+    .BannerImage {
+      height: 350px;
+    }
+    .IntroText{
+      display: none;
+    }
+    .BannerTextContainer {
+      left: 15%;
+      width: 70%;
+    }
+    .BannerText {
+      font-size: 2rem;
+    }
   }
+
 }

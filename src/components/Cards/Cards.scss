@@ -1,10 +1,11 @@
+@import "../../assets/styles/colors";
 /*---------------
  *  Card Style
  *---------------*/
 
 .cards{
   width: 100%;
-  padding-top: 100px;
+  padding-top: 0;
   text-align: center;
   height: 500px;
 }
@@ -13,8 +14,8 @@
   position: relative;
   overflow: hidden;
   white-space: nowrap;
-  width: 1190px;
-  padding-top: 15px;
+  width: 400px;
+  padding-top: 10px;
   height: 100%;
   display: inline-block;
   margin: 5px 5px;
@@ -30,7 +31,8 @@
   display: inline-block;
   left: 0;
   clear: both;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   float: none !important;
   transition: transform .3s ease-in-out;
   vertical-align: top;
@@ -39,18 +41,18 @@
 }
 
 .card .title {
+  font-family: "Open Sans SemiBold", sans-serif;
   cursor: pointer;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 12px;
   position: absolute;
-  text-align: left;
-  top: 220px;
-  left: 20px;
+  text-align: center;
+  top: 250px;
   white-space: normal;
   display: block;
   width: 260px;
   z-index: 2;
-  color: #fff;
+  color: $default-title;
 }
 
 .card img {
@@ -201,13 +203,14 @@
  *   large desktop
  *-------------------*/
 
-@media (min-width: 1200px) and (max-width: 1599px){
+@media (min-width: 1200px){
   .cardWrapper {
-    width: 890px;
+    width: 610px;
   }
 
   .slider-btn {
-    margin-top: 22%;
+    display: none;
+    margin-top: 12%;
   }
 
   .btn-r {
@@ -225,11 +228,12 @@
 @media (min-width: 1020px) and (max-width: 1199px) {
 
   .cardWrapper {
-    width: 890px;
+    width: 610px;
   }
 
   .slider-btn {
-    margin-top: 22%;
+    display: none;
+    margin-top: 12%;
   }
 
   .btn-r {
@@ -249,11 +253,12 @@
 @media (min-width: 768px) and (max-width: 1019px) {
 
   .cardWrapper {
-    width: 590px;
+    width: 610px;
   }
 
   .slider-btn {
-    margin-top: 25%;
+    display: none;
+    margin-top: 18%;
   }
 
   .btn-r {
@@ -271,11 +276,12 @@
 
 @media (max-width: 767px) and (min-width: 536px){
   .cardWrapper {
-    width: 290px;
+    width: 300px;
   }
 
   .slider-btn {
-    margin-top: 40%;
+
+    margin-top: 38%;
   }
 
   .btn-r {
@@ -290,11 +296,11 @@
 @media (max-width: 535px) {
 
   .cardWrapper {
-    width: 290px;
+    width: 300px;
   }
 
   .slider-btn {
-    margin-top: 60%;
+    margin-top: 38%;
   }
 
   .btn-r {
@@ -304,16 +310,16 @@
     left: 2%;
   }
 
-  .pagetitle {
-    margin-top: 20px;
-
-    h1 {
-      font-size: 30px;
-      width: 300px !important;
-    }
-
-    .bar {
-      display: none !important;
-    }
-  }
+  //.pagetitle {
+  //  margin-top: 20px;
+  //
+  //  h1 {
+  //    font-size: 30px;
+  //    width: 300px !important;
+  //  }
+  //
+  //  .bar {
+  //    display: none !important;
+  //  }
+  //}
 }

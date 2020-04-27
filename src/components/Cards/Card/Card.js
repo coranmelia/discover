@@ -1,8 +1,8 @@
 import React from "react";
 import CardData from "./CardData.js"
 import Popup from '../Popup/Popup.js';
-import ReactSVG from "react-svg";
-import like from "../../../icon/svg/like.svg";
+import "../Cards.scss"
+import like from "../../../assets/svg/like.svg";
 
 class Card extends React.Component {
 
@@ -72,7 +72,7 @@ class Card extends React.Component {
         height *= 2;
         this.setState({
             popStyle: {
-                top: height + 'px'
+                // top: height + 'px'
             }
         });
     }
@@ -115,32 +115,32 @@ class Card extends React.Component {
                                              onClick={() => this.showCard(this, i)}
                                              alt = {card.title}/>
                                     </div>
-                                    <ReactSVG src={ like }
-                                              className={
-                                                            this.state.likes[card.id] !== 0 || this.state.likes[card.id] !== '0'
-                                                            ? "svgActive"
-                                                            : ""
-                                              }></ReactSVG>
-                                    <svg  className={
-                                        this.state.likes[card.id] != null
-                                            ? "svgActive"
-                                            : ""
-                                    }>
-                                        <text x={
-                                            this.state.likes[card.id] > 10
-                                            ? 7
-                                            : 10}
-                                              y="20"
-                                              fill="white"
-                                              id={"t"+card.id}
-                                              onClick={()=> this.svgOnChange(card.id)}>
-                                            {
-                                                this.state.likes[card.id] === null
-                                                ? '0'
-                                                : this.state.likes[card.id]
-                                            }
-                                        </text>
-                                    </svg>
+                                    {/*<ReactSVG src={ like }*/}
+                                    {/*          className={*/}
+                                    {/*                        this.state.likes[card.id] !== 0 || this.state.likes[card.id] !== '0'*/}
+                                    {/*                        ? "svgActive"*/}
+                                    {/*                        : ""*/}
+                                    {/*          }></ReactSVG>*/}
+                                    {/*<svg  className={*/}
+                                    {/*    this.state.likes[card.id] != null*/}
+                                    {/*        ? "svgActive"*/}
+                                    {/*        : ""*/}
+                                    {/*}>*/}
+                                    {/*    <text x={*/}
+                                    {/*        this.state.likes[card.id] > 10*/}
+                                    {/*        ? 7*/}
+                                    {/*        : 10}*/}
+                                    {/*          y="20"*/}
+                                    {/*          fill="white"*/}
+                                    {/*          id={"t"+card.id}*/}
+                                    {/*          onClick={()=> this.svgOnChange(card.id)}>*/}
+                                    {/*        {*/}
+                                    {/*            this.state.likes[card.id] === null*/}
+                                    {/*            ? '0'*/}
+                                    {/*            : this.state.likes[card.id]*/}
+                                    {/*        }*/}
+                                    {/*    </text>*/}
+                                    {/*</svg>*/}
                                 </div>
                         )
                     })

@@ -37,7 +37,7 @@ class Tab extends Component {
                 className={ className }
                 onClick={ onClick }
             >
-                <ReactSVG src={label}/>
+                <img src={label}/>
             </li>
         );
     }

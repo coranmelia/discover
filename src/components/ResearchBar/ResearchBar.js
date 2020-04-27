@@ -41,6 +41,11 @@ export default class ResearchBar extends Component{
                         }
                     )}
                 </div>
+                <div className="row showOnSmall">
+                    {
+                        activeElement > 0 ?  list[activeElement-1].name : ''
+                    }
+                </div>
             </div>
         )
     }

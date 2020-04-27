@@ -1,3 +1,5 @@
+@import "../../assets/styles/layout";
+
 .Home {
   position: relative;
 }
@@ -57,9 +59,29 @@
   justify-content: center;
   margin: 20px;
 }
-
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .BannerText{
+    font-size: 2.2rem;
+  }
+  .IntroText {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 767px) {
   .Banner {
     height: 300px;
+  }
+  .BannerImage {
+    height: 350px;
+  }
+  .IntroText{
+    display: none;
+  }
+  .BannerTextContainer {
+    left: 15%;
+    width: 70%;
+  }
+  .BannerText {
+    font-size: 2rem;
   }
 }

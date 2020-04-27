@@ -11,9 +11,7 @@ export default [
         url: "problem",
         name: "PROBLEM SPACE",
         photo: Pro,
-        keyLine: "Discover Student Loans aims to optimize the overall student loan conversion " +
-            "by improving the product selection experience. In our MHCI Capstone project, we are " +
-            "interested in investigating what prevents customers from committing to one of Discover’s " +
+        keyLine: "Our overall question is: What prevents customers from committing to one of Discover’s " +
             "student loan products? How might we address their needs and concerns?"
     },
     {

@@ -1,9 +1,9 @@
 export default {
-  home: "/",
-  problem: "/research",
-  evaluative: "/research/evaluative",
-  generative: "/research/generative",
-  exploratory: "/research/exploratory",
-  solution: "/solution",
-  about: "/about",
+  home: "/discover",
+  problem: "/discover/research",
+  evaluative: "/discover/research/evaluative",
+  generative: "/discover/research/generative",
+  exploratory: "/discover/research/exploratory",
+  solution: "/discover/solution",
+  about: "/discover/about",
 };
