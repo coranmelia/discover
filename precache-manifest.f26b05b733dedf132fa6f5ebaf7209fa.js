@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac468c0cb47f01a1d763d626c4a2cd65",
+    "revision": "877eac44961fb5844a572e45a9c23df4",
     "url": "/discover/index.html"
   },
   {
-    "revision": "7473c50af6ef7b7bf9ee",
+    "revision": "0fc54c2d56ed5475a739",
     "url": "/discover/static/css/2.7a75a24e.chunk.css"
   },
   {
-    "revision": "f37966e6002be39fe014",
-    "url": "/discover/static/css/main.63be88bf.chunk.css"
+    "revision": "6a37bf0132f0c3e36ec7",
+    "url": "/discover/static/css/main.d99e0752.chunk.css"
   },
   {
-    "revision": "7473c50af6ef7b7bf9ee",
-    "url": "/discover/static/js/2.51ba8dcc.chunk.js"
+    "revision": "0fc54c2d56ed5475a739",
+    "url": "/discover/static/js/2.b2921cb1.chunk.js"
   },
   {
     "revision": "924d95e335ad16e988cac93226125292",
-    "url": "/discover/static/js/2.51ba8dcc.chunk.js.LICENSE.txt"
+    "url": "/discover/static/js/2.b2921cb1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f37966e6002be39fe014",
-    "url": "/discover/static/js/main.0929767d.chunk.js"
+    "revision": "6a37bf0132f0c3e36ec7",
+    "url": "/discover/static/js/main.1d6b923e.chunk.js"
   },
   {
     "revision": "8f3c80e87321d650f649",
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7f3c04e4f738f42dec61074965df63f8",
     "url": "/discover/static/media/DSL_Logo.7f3c04e4.png"
+  },
+  {
+    "revision": "4cc6a6fcb471af5bba3d40fd28f7d453",
+    "url": "/discover/static/media/Frame.4cc6a6fc.svg"
   },
   {
     "revision": "1025a6e0fb0fa86f17f57cc82a6b9756",
@@ -108,12 +112,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/discover/static/media/bidisha.df7c8de2.png"
   },
   {
+    "revision": "85ca0281d164e90ccd439d4a5f26861c",
+    "url": "/discover/static/media/bolb.85ca0281.svg"
+  },
+  {
     "revision": "2460157a022695d4cbfbe72b45c92fde",
     "url": "/discover/static/media/card1.2460157a.png"
   },
   {
     "revision": "9f8e1c0033439625372ff47e40697aed",
     "url": "/discover/static/media/card2.9f8e1c00.png"
+  },
+  {
+    "revision": "b4e887e562160bbf560b52269da9160c",
+    "url": "/discover/static/media/conceptual1.b4e887e5.png"
+  },
+  {
+    "revision": "3a398eae1bb7bc7c30f2f2bb68990f71",
+    "url": "/discover/static/media/conceptual2.3a398eae.png"
+  },
+  {
+    "revision": "a1330b6b88e2a35c0eaffcd5e768f7ac",
+    "url": "/discover/static/media/conceptual3.a1330b6b.png"
+  },
+  {
+    "revision": "2afa1d97cca6e2c65716cff93a04d379",
+    "url": "/discover/static/media/conceptual4.2afa1d97.png"
   },
   {
     "revision": "f290d5c5c1b6b09da2d545649e5dac46",
@@ -124,12 +148,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/discover/static/media/jackie.808097fd.png"
   },
   {
+    "revision": "df17d4a31b49d3fecdbf35499c46297a",
+    "url": "/discover/static/media/jm.df17d4a3.png"
+  },
+  {
     "revision": "c709f58c14409228a5f1bd6bdfff3dc3",
     "url": "/discover/static/media/like.c709f58c.svg"
   },
   {
+    "revision": "367903e690400d978fd5b0c464e6ebcd",
+    "url": "/discover/static/media/opportunity.367903e6.svg"
+  },
+  {
     "revision": "0559ccfcbe84f37c93b919572ac8afaf",
     "url": "/discover/static/media/research.0559ccfc.png"
+  },
+  {
+    "revision": "2d5e604140b934d71b9a7dcea1e83170",
+    "url": "/discover/static/media/sm1.2d5e6041.png"
+  },
+  {
+    "revision": "4c05465f31138321a0d79a93848ac8a9",
+    "url": "/discover/static/media/sm2.4c05465f.png"
   },
   {
     "revision": "536cfe84784335b4798f7b0b23e00a11",
