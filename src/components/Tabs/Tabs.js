@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 import Tab from './Tab';
 import "./Tabs.scss";
+import Toggler from "../../assets/svg/Frame.svg";
 
 class Tabs extends Component {
 
@@ -36,7 +37,7 @@ class Tabs extends Component {
         return (
             <div className="tabs">
                 <ol className="tab-list">
-                    {children.map((child) => {
+                    {children.map((child, idx) => {
                         const { title, label } = child.props;
 
                         return (

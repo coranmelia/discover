@@ -16,6 +16,7 @@
     }
     h4 {
         margin-bottom: 20px;
+        color: $default-title;
     }
     p {
         margin-bottom: 20px;
@@ -46,5 +47,11 @@
     margin-bottom: 20px;
 }
 .conceptual {
-    margin-bottom: 40px;
+    span{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        text-align: left;
+    }
+    margin-bottom: 20px;
 }

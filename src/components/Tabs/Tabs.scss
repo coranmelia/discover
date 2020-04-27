@@ -7,22 +7,24 @@
   //svg {
   //  opacity: 0.5;
   //}
-  text-align: right;
+  text-align: left;
 }
 
 .tab-list-item {
-
   display: inline-block;
   list-style: none;
   margin-bottom: -1px;
+  margin-right: 15px;
   margin-top: 10px;
   padding: 0.5rem 0.75rem;
   cursor: pointer;
   color: $default-title;
+  opacity: 0.8;
 }
 
 .tab-list-active {
   background-color: white;
-  color: $default-text;
-  //border: solid #eee;
+  color: $highlight;
+  opacity: 1;
+  border-bottom: solid $highlight;
 }

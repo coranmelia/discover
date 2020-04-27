@@ -63,7 +63,7 @@ class ResearchGen extends React.Component {
                                             and of themselves. Putting an idea in front of a user elicits a reaction
                                             (positive or negative) that helps us validate the needs we identified. </p>
                                         <p>We entered this phase with the following hypotheses: </p>
-                                        <p className="emphasize">Because [Customers narrowly focus on “rates”, largely
+                                        <p className="emphasize">Because [customers narrowly focus on “rates”, largely
                                             ingoing other forms of value], providing stories from the previous DSL
                                             customers will help the users contextualize the loan selections so as to
                                             make a better decision</p>
@@ -130,6 +130,7 @@ class ResearchGen extends React.Component {
                                     {list.map((prototype, idx) => {
                                         return (
                                             <div className="row conceptual" key={idx}>
+                                                <span><h3>{prototype.pageTitle}</h3></span>
                                                 <div className="col-lg-6 col-md-12 col-sm-12">
                                                     <PhotoZoom src={ prototype.profile } alt={prototype.pageTitle}/>
                                                 </div>
