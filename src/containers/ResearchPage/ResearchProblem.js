@@ -71,7 +71,7 @@ class ResearchProblem extends Component {
                       <br/>
                       <h4>An overview of the content under each design research phase:</h4>
                       <div className="row">
-                        <div className="col-sm-4 col-md-4 col-lg-4">
+                        <div className="col-sm-12 col-md-6 col-lg-4">
                                   <h4>Exploratory Research</h4>
                                   <ul>
                                       <li>Research Process</li>
@@ -80,7 +80,7 @@ class ResearchProblem extends Component {
                                       <li>Insights</li>
                                   </ul>
                               </div>
-                              <div className="col-sm-4 col-md-4 col-lg-4">
+                              <div className="col-sm-12 col-md-6 col-lg-4">
                                   <h4>Generative Research</h4>
                                   <ul>
                                       <li>Hypothesis & Assumptions</li>
@@ -89,7 +89,7 @@ class ResearchProblem extends Component {
                                       <li>Design Opportunities</li>
                                   </ul>
                               </div>
-                              <div className="col-sm-4 col-md-4 col-lg-4">
+                              <div className="col-sm-12 col-md-6 col-lg-4">
                                   <h4>Evaluative Research</h4>
                                   <ul>
                                       <li>Hi-Fidelity Prototypes</li>
