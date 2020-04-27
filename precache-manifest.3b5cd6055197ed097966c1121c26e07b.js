@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4e7bc148c54188885dbcf17cc8ed768a",
+    "revision": "6c62f3ae98860573ebf59604471901b5",
     "url": "/discover/index.html"
   },
   {
-    "revision": "4e6024031670444317cb",
+    "revision": "f8db51cc56a0e2b69acc",
     "url": "/discover/static/css/2.7a75a24e.chunk.css"
   },
   {
-    "revision": "c11f8fd984ec085ea751",
-    "url": "/discover/static/css/main.a6b73088.chunk.css"
+    "revision": "2ab792ed76d9d61099cd",
+    "url": "/discover/static/css/main.bffb0aa1.chunk.css"
   },
   {
-    "revision": "4e6024031670444317cb",
-    "url": "/discover/static/js/2.60e82d15.chunk.js"
+    "revision": "f8db51cc56a0e2b69acc",
+    "url": "/discover/static/js/2.94da2956.chunk.js"
   },
   {
     "revision": "924d95e335ad16e988cac93226125292",
-    "url": "/discover/static/js/2.60e82d15.chunk.js.LICENSE.txt"
+    "url": "/discover/static/js/2.94da2956.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c11f8fd984ec085ea751",
-    "url": "/discover/static/js/main.594269c1.chunk.js"
+    "revision": "2ab792ed76d9d61099cd",
+    "url": "/discover/static/js/main.6a60dd72.chunk.js"
   },
   {
     "revision": "8f3c80e87321d650f649",
@@ -156,12 +156,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/discover/static/media/like.c709f58c.svg"
   },
   {
+    "revision": "4d8ab26c2e647c767ce6f39bb8384a1a",
+    "url": "/discover/static/media/model.4d8ab26c.png"
+  },
+  {
     "revision": "367903e690400d978fd5b0c464e6ebcd",
     "url": "/discover/static/media/opportunity.367903e6.svg"
   },
   {
+    "revision": "a3c96c0019549be7cb65761552377193",
+    "url": "/discover/static/media/pg.a3c96c00.jpg"
+  },
+  {
+    "revision": "f5870b3e3c4d732162ca58604be6f373",
+    "url": "/discover/static/media/pl.f5870b3e.jpg"
+  },
+  {
     "revision": "0559ccfcbe84f37c93b919572ac8afaf",
     "url": "/discover/static/media/research.0559ccfc.png"
+  },
+  {
+    "revision": "1bc01bda8156c8b25e50d271cbbff028",
+    "url": "/discover/static/media/sh.1bc01bda.jpg"
+  },
+  {
+    "revision": "19318de702a453f383064b1055cfa873",
+    "url": "/discover/static/media/si.19318de7.jpg"
   },
   {
     "revision": "2d5e604140b934d71b9a7dcea1e83170",
