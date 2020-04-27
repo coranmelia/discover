@@ -60,11 +60,11 @@ const ResearchGen = () => {
                             our identified needs were accurate.  </p>
                         {/*<img src={Storyboard1}/>*/}
                         <div className="photoDeck">
-                            <PhotoZoom photoId="photo1" className="col-11" src={Storyboard1}/>
+                            <PhotoZoom photoId="photo1" src={Storyboard1}/>
                             <br/>
-                            <PhotoZoom photoId="photo2" className="col-11" src={Storyboard2}/>
+                            <PhotoZoom photoId="photo2" src={Storyboard2}/>
                             <br/>
-                            <PhotoZoom photoId="photo3" className="col-11" src={Storyboard3}/>
+                            <PhotoZoom photoId="photo3" src={Storyboard3}/>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12">
