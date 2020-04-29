@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import "bootstrap/dist/css/bootstrap.css";
 import "./index.scss";
@@ -8,7 +8,8 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
 const app = (
-  <Router>
+  // <Router basename={`${process.env.PUBLIC_URL}/`}>
+  <Router basename="/">
     <ScrollToTop>
       <App />
     </ScrollToTop>
