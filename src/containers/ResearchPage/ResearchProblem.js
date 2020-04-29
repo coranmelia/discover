@@ -116,7 +116,7 @@ class ResearchProblem extends Component {
                                   they fill out the application, which leads to indecisions on loan selections. Therefore,
                                   we designed two types of prototypes to accommodate this user need.</p>
                           </div>
-                          <div className="col-md-12 col-sm-12 col-lg-12 col-xl-6">
+                          <div className="col-md-12 col-sm-12 col-lg-12 col-xl-6" style={{"text-align":"center"}}>
                               <div className="cardWrapper">
                                   {/*<Card cardStyle={this.state.cardStyle} />*/}
                                   <Cards></Cards>
