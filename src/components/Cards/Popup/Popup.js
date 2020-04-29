@@ -33,29 +33,33 @@ class Popup extends React.Component {
                     <button className='close' onClick={this.props.closePopup}>x</button>
                         <div className="popup_container">
                             <h2> {this.props.text}</h2>
-                            <div className="left">
-                                <div className="break"></div>
-                                <div className="text">
-                                    <b>Overview: </b>
-                                    { CardData()[this.props.content].overview }
+                            <div className="break"></div>
+                            <div className="row top">
+                                <div className="col-lg-6 col-md-12 col-sm-12">
+
+                                    <div className="text">
+                                        <b>Overview: </b>
+                                        { CardData()[this.props.content].overview }
+                                    </div>
+                                </div>
+                                <div className="col-lg-6 col-md-12 col-sm-12">
+                                        <PhotoZoom src={ CardData()[this.props.content].url }
+                                             alt={ CardData()[this.props.content].title}/>
                                 </div>
                             </div>
-                            <div className="right">
-                                    <PhotoZoom src={ CardData()[this.props.content].url }
-                                         alt={ CardData()[this.props.content].title}/>
-                            </div>
                             <div style={{'clear':'both', 'height' : '40px'}}></div>
-                            <div className="bottom">
-                                <h5>Pros & Cons</h5>
-                                <ul className="text">
-                                    {list.map ((content, index) => {
-                                        return (<li key={index}> {content} </li>);
-                                    })
-                                    }
-                                </ul>
+                            <div className="row">
+                                <div className="bottom col-12">
+                                    <h5>Pros & Cons</h5>
+                                    <ul className="text">
+                                        {list.map ((content, index) => {
+                                            return (<li key={index}> {content} </li>);
+                                        })
+                                        }
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-
                 </div>
             </div>
         );

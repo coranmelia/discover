@@ -46,6 +46,10 @@
     padding-left: 50px;
     padding-right: 50px;
 
+    h5{
+      color: $highlight;
+    }
+
     ul {
       padding: 0;
     }
@@ -68,25 +72,14 @@
       background: $default-text;
     }
 
-    .left {
-      float: left;
-      width: 50%;
-      margin: 0;
-
-      .text {
-        font-size: 1rem;
-        line-height: 1.5em;
-        padding-right: 20px;
-        padding-top: 35px;
-        margin: 0;
-      }
+    .text {
+      font-size: 1rem;
+      line-height: 1.5em;
+      padding-right: 20px;
+      margin-bottom: 15px;
     }
-
-    .right {
-      float: left;
-      width: 50%;
-      margin: 0;
-      text-align: center;
+    .top {
+      margin-top: 40px;
     }
   }
 }
@@ -98,12 +91,6 @@
 @media (min-width: 768px) and (max-width: 1019px) {
   .popup_inner {
     overflow: scroll;
-      .left {
-        width: 100% !important;
-      }
-      .right {
-        width: 100% !important;
-      }
   }
 }
 
@@ -125,29 +112,6 @@
       right: 10%;
     }
 
-    .tabs{
-      margin-top: 10%;
-    }
-
-    .tab-content {
-      .left {
-        width: 80%;
-      }
-      .right{
-        width: 80%;
-        margin-left: 0;
-        padding-left:50px;
-        background-color: rgba(0,0,0,0);
-
-        .text{
-          width:100%;
-
-          ul{
-            padding: 0;
-          }
-        }
-      }
-    }
   }
 
 }

@@ -124,11 +124,13 @@ const ResearchExp = () => {
         <div className="phase">
             <span><h2 className="col-12">Stakeholder Map & Customer Journey Map</h2></span>
             <div className="row">
-                <p>We created 2 stakeholder maps to form a full understanding of the stakeholders involved,
-                    their relationships, and the ways in which they exchange value. In the same vein, after
-                    some primary research, we created a customer journey map to better understand a customer’s
-                    “journey” through student loan applications in order to identify the larger use context
-                    as well as emotions, pain points, and solution opportunities for customer actions.</p>
+                <div className="col-12">
+                    <p>We created 2 stakeholder maps to form a full understanding of the stakeholders involved,
+                        their relationships, and the ways in which they exchange value. In the same vein, after
+                        some primary research, we created a customer journey map to better understand a customer’s
+                        “journey” through student loan applications in order to identify the larger use context
+                        as well as emotions, pain points, and solution opportunities for customer actions.</p>
+                </div>
             </div>
             <div className="row conceptual">
                 <div className="col-sm-12 col-md-6 col-lg-6">
@@ -147,18 +149,20 @@ const ResearchExp = () => {
         <div className="phase">
             <span><h2 className="col-12">Our Persona</h2></span>
             <div className="row">
-                <p>A “Persona” is a fictional representation of an actual user and is applied in the early stages of product development or product redesign.
-                    Personas are vital to the success of a product because they drive design decisions by taking common user needs and bringing them to the
-                    forefront of planning before design has actually started. </p>
-                <p>We created 2 student persona and 2 parent persona to capture the most typical (and probably the most extreme)
-                    types of students and parents we've seen in our research and interviews. Building personas gives our team
-                    an opportunity to discuss critical features of a redesign, and provides a shared understanding of who the target
-                    users should be.</p>
+                <div className="col-12">
+                    <p>A “Persona” is a fictional representation of an actual user and is applied in the early stages of product development or product redesign.
+                        Personas are vital to the success of a product because they drive design decisions by taking common user needs and bringing them to the
+                        forefront of planning before design has actually started. </p>
+                    <p>We created 2 student persona and 2 parent persona to capture the most typical (and probably the most extreme)
+                        types of students and parents we've seen in our research and interviews. Building personas gives our team
+                        an opportunity to discuss critical features of a redesign, and provides a shared understanding of who the target
+                        users should be.</p>
+                    </div>
             </div>
             <br/>
             <div className="row">
                 <div className="col-12">
-                    <h3>Student Persona</h3>
+                    <h3>Student Personas</h3>
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12">
                     <p>We identified two major types of students in our journey of research. One type of students is so-called the
