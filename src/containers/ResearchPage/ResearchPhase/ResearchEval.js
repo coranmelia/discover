@@ -30,8 +30,11 @@ const ResearchEval = () => {
         <br/>
         <div className="container">
             <ResearchBar activeElement={id}></ResearchBar>
-            <div className="row">
-                <h2>Coming Soon in May :)</h2>
+            <div className="phase">
+                <div className="row">
+                    <span><h2>Lo-Fi Prototype</h2></span>
+                    <p>Coming Soon in May :)</p>
+                </div>
             </div>
         </div>
       </div>

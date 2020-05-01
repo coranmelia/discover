@@ -51,7 +51,7 @@ class ResearchGen extends React.Component {
                 <div className="container">
                     <ResearchBar activeElement={id}></ResearchBar>
                     <Tabs>
-                        <div label={Bolb} title={"VALIDATE USER NEEDS"}>
+                        <div label={Bolb} title={"USER NEEDS"}>
                             <div className="phase">
                                 <span><h2 className="col-12">Hypothesis and Assumptions</h2></span>
                                 <div className="row">
@@ -111,7 +111,7 @@ class ResearchGen extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div label={Opportunity} title={"ITERATIVE DESIGN RESEARCH"}>
+                        <div label={Opportunity} title={"ITERATIVE DESIGN"}>
                             <div className="phase">
                                 <span><h2 className="col-12">Step 1: Conceptual Prototypes</h2></span>
                                 <div className="row">

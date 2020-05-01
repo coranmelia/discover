@@ -19,8 +19,13 @@ render() {
             <br/>
             <div className="container">
                 <ResearchBar activeElement={5}></ResearchBar>
-                {/*<br/>*/}
-                <h2>Coming Soon in August :)</h2>
+                <div className="phase">
+                    <div className="row">
+                        <span><h2>Solution Space</h2></span>
+                        <p>Coming Soon in August :)</p>
+                    </div>
+                </div>
+
             </div>
         </div>
 
