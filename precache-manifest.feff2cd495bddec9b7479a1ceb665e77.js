@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c951718068b4a051a6a5e3e34e6e31ea",
+    "revision": "83d4c978956b87a002307a490feb3402",
     "url": "/discover/index.html"
   },
   {
-    "revision": "c25d6af0bbf9ad03b36a",
+    "revision": "d7c46e6bc97e3078c914",
     "url": "/discover/static/css/2.9de105d4.chunk.css"
   },
   {
-    "revision": "8ae0896be53e46eaeefc",
-    "url": "/discover/static/css/main.d4dce8f4.chunk.css"
+    "revision": "44665b610c9f2e274759",
+    "url": "/discover/static/css/main.e13ca41a.chunk.css"
   },
   {
-    "revision": "c25d6af0bbf9ad03b36a",
-    "url": "/discover/static/js/2.3cf6c74b.chunk.js"
+    "revision": "d7c46e6bc97e3078c914",
+    "url": "/discover/static/js/2.7bb5dc15.chunk.js"
   },
   {
     "revision": "924d95e335ad16e988cac93226125292",
-    "url": "/discover/static/js/2.3cf6c74b.chunk.js.LICENSE.txt"
+    "url": "/discover/static/js/2.7bb5dc15.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8ae0896be53e46eaeefc",
-    "url": "/discover/static/js/main.60c2457b.chunk.js"
+    "revision": "44665b610c9f2e274759",
+    "url": "/discover/static/js/main.4fbeb23b.chunk.js"
   },
   {
     "revision": "8f3c80e87321d650f649",
@@ -180,8 +180,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/discover/static/media/f2.2bfd3d4c.jpg"
   },
   {
-    "revision": "d9bdc34b8838d00be5c0ab48de4c4313",
-    "url": "/discover/static/media/f3.d9bdc34b.jpg"
+    "revision": "3920ae0b8f5d82c8209d939cde7e03aa",
+    "url": "/discover/static/media/f3.3920ae0b.jpg"
   },
   {
     "revision": "1a2de31b68ac15e2c9caece13ff305a2",
@@ -310,6 +310,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "59e3f3b11e9654df04faa8ecf1e860a5",
     "url": "/discover/static/media/storyboard3.59e3f3b1.png"
+  },
+  {
+    "revision": "ec16b0ff0ea11b86dfaded2fe87de948",
+    "url": "/discover/static/media/team-md.ec16b0ff.jpg"
+  },
+  {
+    "revision": "a6f3550ac9088b7201e65476c1a6cbee",
+    "url": "/discover/static/media/team-sm.a6f3550a.jpg"
   },
   {
     "revision": "35b7b5a7bcecc2212aa79150ed628017",
