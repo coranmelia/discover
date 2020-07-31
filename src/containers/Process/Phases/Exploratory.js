@@ -1,15 +1,10 @@
 import React from "react";
-import { useParams } from "react-router";
+// import { useParams } from "react-router";
 import "./ResearchPhase.scss";
-import DoubleDiamond from "../../../assets/imgs/research.png";
 import SevenAreas from "../../../assets/imgs/7areas.jpeg";
 import ResearchTitleList from "../../../components/ResearchBar/PageList";
-import ResearchBar from "../../../components/ResearchBar/ResearchBar";
 import "../Research.scss";
 import PhotoZoom from "../../../components/PhotoZoom/PhotoZoom";
-import Opportunity from "../../../assets/svg/opportunity.svg";
-import Tabs from "../../../components/Tabs/Tabs";
-import Frame from  "../../../assets/svg/Frame.svg";
 import SM1 from "../../../assets/artifacts/sm1.png";
 import SM2 from "../../../assets/artifacts/sm2.png";
 import JM from "../../../assets/artifacts/jm.png";
@@ -17,11 +12,14 @@ import PG from "../../../assets/artifacts/pg.jpg";
 import PL from "../../../assets/artifacts/pl.jpg";
 import SH from "../../../assets/artifacts/sh.jpg";
 import SI from "../../../assets/artifacts/si.jpg";
+import ProgressBar from "../../../components/ProgressBar/ProgressBar";
+import Tooltip from "../../../components/Tooltip/Tooltip";
+import TooltipList from "../../../components/Tooltip/TooltipList";
 
-const ResearchExp = () => {
+const Exploratory = () => {
   const id = 2;
   const title = ResearchTitleList.filter(title => title.id === id)[0];
-  const { name, photo, keyLine } = title;
+  const { name, photo } = title;
 
 
   return (
@@ -29,83 +27,45 @@ const ResearchExp = () => {
         <div className="BannerImage">
           <img style={{ width: "100%" }} src={photo} alt={name} />
         </div>
-        <div className="Banner">
+        <div className="Banner container">
             <div className="BannerTextContainer">
-                <div className="BannerText">{name}</div>
-                <div className="break"></div>
-            </div>
-            <div className="IntroContainer row">
-                <p className="IntroText">
-                    {keyLine}
-                </p>
+                <h1 className="BannerText--light">{name}</h1>
             </div>
         </div>
         <br/>
         <div className="container">
-            <ResearchBar activeElement={id}></ResearchBar>
-                <Tabs>
-                    <div label={Opportunity} title={"RESEARCH PROCESS"}>
+            <ProgressBar progress={1}/>
                     <div className="phase">
-                        <span><h2 className="col-12">How might we dive into the problem?</h2></span>
-                        <div className="row">
-                            <h4 className="col-sm-12 col-md-6 col-lg-6">Diverge. Converge. And Repeat. </h4>
-                        </div>
-                        <div className="row">
-                            <div className="col-sm-12 col-md-6 col-lg-6">
-                                <p>The fundamentals of Human-Centered Design is to identify the right problem;
-                                    to understand and prioritize human needs & limitations; and to build empathy,
-                                    ideate opportunities, prototype solutions, and iterate.</p>
-                            </div>
-                            <div className="col-sm-12 col-md-6 col-lg-6">
-                                <p>We used the <b>“Double Diamond”</b> model to guide our research and design. The two
-                                    diamonds represent a process of exploring an issue more widely or deeply
-                                    (divergent thinking) and then taking focused action (convergent thinking).  </p>
-                            </div>
-                        </div>
-                        <div className="row doubleDiamond">
-                            <PhotoZoom src={DoubleDiamond} alt="research"/>
-                            <span className="footnote">Read about the Double Diamond Theory <a target="_blank" href={"https://www.designcouncil.org.uk/news-opinion/what-framework-innovation-design-councils-evolved-double-diamond"}> here</a></span>
-                        </div>
-                    </div>
-                    <div className="phase">
-                        <span><h2 className="col-12">Find answers through ambiguity</h2></span>
+                        <span><h2> <span className={"tooltips"}> Find answers <Tooltip content={TooltipList[7]}/></span>through ambiguity</h2></span>
                         <div className="row">
                             <div className="col-lg-6 col-md-6 col-sm-12">
-                                <p>After conducting initial secondary research and interviewing stakeholders, we better
-                                    understood the areas we needed to investigate further. Using every designer’s two
-                                    favorite tools - sticky notes and a white board - we listed our pressing questions
-                                    and sorted the results. We ended up with <b>“seven streams”</b>.</p>
+                                <p>After conducting initial primary and secondary research, we better understood the areas we needed to investigate further. Using every designer’s two favorite tools - sticky notes and a whiteboard - we listed our pressing questions and sorted the results. We ended up with <b>“seven streams”</b> of questions to explore:.</p>
                                 <ul>
                                     <li>Long-term Planning</li>
                                     <li>Community Engagement & Support</li>
-                                    <li>The DSL Application</li>
-                                    <li>The Parent-Student Dynamic</li>
+                                    <li>The Loan Application</li>
+                                    <li>Parent-Student Dynamic</li>
                                     <li>Financial Literacy</li>
                                     <li>Customer Perceptions & Needs</li>
-                                    <li>Strategy</li>
+                                    <li>Business Strategy</li>
                                 </ul>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12">
-                                <PhotoZoom src={SevenAreas} alt="7Areas"/>
+                                <img src={SevenAreas} alt="7Areas"/>
                             </div>
                         </div>
                     </div>
                     <div className="phase">
-                        <span><h2 className="col-12">Research Goal</h2></span>
-                        <div className="row">
-                            <h4 className="col-12">How might we improve DSL customer conversion?</h4>
-                        </div>
+                        <h4>Research Goals.</h4>
+                        <span><h2>How might we improve customer conversion?</h2></span>
                         <div className="row">
                             <p className="col-lg-6 col-md-6 col-sm-12">
-                                Our overarching goal is to help improve Discover Student Loans customer
-                                conversion by improving the product selection experience. Product selection
-                                is a late step in the loan application process, in which the student selects
-                                an exact plan (Which APR? Interest-only payments? Fixed payments? Deferred
-                                payments?) This decision relies on a web of complex factors, such as financial
-                                literacy, financial need, post-graduation prospects, and personal priorities.</p>
-                            <div className="col-lg-6 col-md-6 col-sm-12">Specifically, we aim to:
+                                Our overarching goal was to help improve Discover Student Loans’ customer conversion by improving the product selection experience. Product selection is a late step in the application process, in which the student selects an exact plan (Which APR? Interest-only payments? Fixed payments? Deferred payments?) This decision relies on a web of complex factors, such as financial literacy, financial need, post-graduation prospects, and personal priorities.
+                            </p>
+                            <div className="col-lg-6 col-md-6 col-sm-12">
+                                <p>Specifically, we aimed to:</p>
                                 <ul>
-                                    <li>Understand customer (i.e., students and parents)
+                                    <li>Understand customers' (i.e., students and parents)
                                         decision-making in applying for and selecting a
                                         student loan product;</li>
                                     <li>Assess why customers are currently dropping out of the
@@ -116,10 +76,10 @@ const ResearchExp = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div label={Frame} title={"ARTIFACTS"}>
+
                     <div className="phase">
-                        <span><h2 className="col-12">Stakeholder Map & Customer Journey Map</h2></span>
+                        <h4>Stakeholder Map & Customer Journey Map.</h4>
+                        <span><h2>Learn about Stakeholders & Customers</h2></span>
                         <div className="row">
                             <div className="col-12">
                                 <p>We created 2 stakeholder maps to form a full understanding of the stakeholders involved,
@@ -137,14 +97,15 @@ const ResearchExp = () => {
                                 <PhotoZoom src={SM2} alt={"SM2"}/>
                             </div>
                         </div>
+                        <br/>
                         <div className="row">
-                            <div className="col-12">
+                            <div className="col-12 no-shadow">
                                 <PhotoZoom src={JM} alt={"JM"}/>
                             </div>
                         </div>
                     </div>
-                    <div className="phase">
-                        <span><h2 className="col-12">Our Persona</h2></span>
+                    <div className="phase no-shadow">
+                        <h2><span className={"tooltips"}> Build Customer Personas <Tooltip content={TooltipList[8]}/></span></h2>
                         <div className="row">
                             <div className="col-12">
                                 <p>A “Persona” is a fictional representation of an actual user and is applied in the early stages of product development or product redesign.
@@ -214,13 +175,10 @@ const ResearchExp = () => {
                             </div>
                         </div>
                     </div>
-
-                </div>
-            </Tabs>
         </div>
 
       </div>
   );
 };
 
-export default ResearchExp;
+export default Exploratory;

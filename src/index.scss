@@ -1,7 +1,3 @@
-@font-face {
-  font-family: "StarWars";
-  src: local("StarWars"), url(./fonts/STARWARS.woff) format("woff");
-}
 
 @font-face {
   font-family: 'Open Sans Light';
@@ -46,7 +42,6 @@ body {
   margin: 0;
 }
 
-h1 {
-  font-size: 45px;
-  font-family: "Open Sans ExtraBold", sans-serif;
+.App {
+  text-align: left;
 }

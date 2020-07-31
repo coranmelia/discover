@@ -2,8 +2,8 @@
 import Pro from "../../assets/imgs/0.png";
 import Exp from "../../assets/imgs/1.png";
 import Gen from "../../assets/imgs/2.png";
-import Eva from "../../assets/imgs/7.png";
-import Sol from "../../assets/imgs/4.png";
+import Eva from "../../assets/imgs/7.jpg";
+import Mvp from "../../assets/imgs/mvp.jpg";
 
 export default [
     {
@@ -37,19 +37,17 @@ export default [
     },
     {
         id: 4,
-        url:"evaluative",
-        name: "EVALUATIVE RESEARCH",
+        url:"need",
+        name: "DESIGN FOR USER NEEDS",
         photo: Eva,
-        keyLine: "Evaluative research is about synthesis, ideation, rapid prototyping. " +
-            "How might we convert our research insights into feasible design solutions? " +
-            "We brainstormed design opportunities, drew storyboards, and sketch prototypes " +
-            "to quickly validate user needs and test design solutions. "
+        keyLine: "Our goal for Need Validation is to validate whether customization & contextualization " +
+            "is true user need? What forms of customization & contextualization are needed? "
     },
     {
         id: 5,
-        url:"solution",
-        name: "SOLUTION SPACE",
-        photo: Sol,
+        url:"mvp",
+        name: "DESIGN FOR \"GUIDANCE\"",
+        photo: Mvp,
         keyLine: "Solution Description"
     },
 ];

@@ -1,89 +1,18 @@
-// import React from "react";
-// import Vader from "../../assets/svg/banner.svg";
-// import YouTube from "react-youtube";
-// import "./HomePage.scss";
-//
-// const homePage = () => {
-//     const _onReady = event => {
-//         // access to player in all event handlers via event.target
-//         event.target.pauseVideo();
-//     };
-//
-//     return (
-//         <div className="Home">
-//             <div className="Banner">
-//                 <img src={Vader} alt="Vader" />
-//                 <div className="BannerTextContainer">
-//                     <div className="BannerText">Welcome</div>
-//                 </div>
-//             </div>
-//             <br />
-//
-//             <div className="container">
-//                 <h3>
-//                     Star Wars is an American epic space-opera media franchise created by
-//                     George Lucas.
-//                 </h3>
-//
-//                 <p className="IntroText">
-//                     The franchise began with the eponymous 1977 film and quickly became a
-//                     worldwide pop-culture phenomenon. The original film, later subtitled
-//                     Episode IV – A New Hope, was followed by the sequels Episode V – The
-//                     Empire Strikes Back (1980) and Episode VI – Return of the Jedi (1983),
-//                     forming what is collectively referred to as the original trilogy. A
-//                     prequel trilogy was later released, consisting of Episode I – The
-//                     Phantom Menace (1999), Episode II – Attack of the Clones (2002) and
-//                     Episode III – Revenge of the Sith (2005). Years later, a sequel
-//                     trilogy began with Episode VII – The Force Awakens (2015), continued
-//                     with Episode VIII – The Last Jedi (2017), and will conclude with
-//                     Episode IX – The Rise of Skywalker (2019). The first eight films were
-//                     nominated for Academy Awards (with wins going to the first two
-//                     released) and were commercially successful. Together with the
-//                     theatrical anthology films Rogue One (2016) and Solo: A Star Wars
-//                     Story (2018), the combined box office revenue of the films equates to
-//                     over US$9 billion, and is currently the second-highest-grossing film
-//                     franchise.
-//                 </p>
-//
-//                 <p className="IntroText">
-//                     The film series was expanded into other media, including television
-//                     series, video games, novels, comic books, theme park attractions and
-//                     themed areas, resulting in an all-encompassing fictional universe. In
-//                     2012, Lucas sold his company to Disney, and in 2014, most existing
-//  spin-off media was made non-canon and rebranded as "Star Wars
-// Legends". The episodic 'Skywalker saga' and the TV series The Clone
-// Wars (2008–2014) define the canon, along with most other works
-// released after April 2014, though a few Legends-universe media are
-// still released, and some Legends characters are sometimes
-// re-introduced into the canon, for example the titular character from
-// Timothy Zahn's Thrawn trilogy of novels. The franchise holds a
-// Guinness World Records title for the "Most successful film
-// merchandising franchise." In 2018, the total value of the Star Wars
-// franchise was estimated at US$65 billion, and it is currently the
-// fifth-highest-grossing media franchise of all-time.
-// </p>
-//
-// <div className="VideoPlayer">
-//     <YouTube
-// videoId="iXDnFYu91vY"
-// opts={{
-//     playerVars: {
-//         autoplay: 0
-//     }
-// }}
-// onReady={_onReady}
-// />
-// </div>
-// </div>
-// </div>
-// );
-// };
-//
-// export default homePage;
 import React from "react";
-import Banner from '../../assets/svg/banner.svg';
-import ResearchBar from "../../components/ResearchBar/ResearchBar.js"
+import { NavLink } from "react-router-dom";
+import Banner from '../../assets/imgs/banner.jpg';
+import tools from '../../assets/svg/tools.svg';
+import resources from '../../assets/svg/resources.svg';
+import faqs from '../../assets/svg/FAQs.svg';
+import glossary from '../../assets/svg/Glossary.svg';
+import solution from '../../assets/home/solution_full.png';
+import team from '../../assets/home/team.jpg';
+import client from '../../assets/home/client.jpg';
+import stakeholdermap from '../../assets/artifacts/sm1.png'
 import "./HomePage.scss";
+import appRoutes from "../../shared/appRoutes";
+import Tooltip from "../../components/Tooltip/Tooltip";
+import TooltipList from "../../components/Tooltip/TooltipList";
 
 export default class homePage extends React.Component{
 
@@ -92,23 +21,173 @@ export default class homePage extends React.Component{
           <div className="Home">
               <div className="BannerImage">
                   <img src={ Banner } alt="banner" />
-                  <p className="IntroText">
-                      Discover Student Loans aims to optimize the overall student loan conversion
-                      by improving the product selection experience. In our MHCI Capstone project,
-                      we are interested in investigating what prevents customers from committing
-                      to one of Discover’s student loan products? How might we address their needs
-                      and concerns?
-                  </p>
               </div>
-              <div className="Banner">
+              <div className="Banner container">
+                  <h5>DISCOVER X MHCI</h5>
                   <div className="BannerTextContainer">
-                      <div className="BannerText">Do you understand your student loan?</div>
-                      <div className="break"></div>
+                      <h1 className="BannerText">BE CONFIDENT ABOUT YOUR STUDENT LOAN CHOICE. </h1>
+
+                  </div>
+                  <div className="IntroContainer">
+                      <p className="IntroText">
+                          Discover Student Loans’ AppAssist provides guidance right where you need it most.
+                      </p>
                   </div>
               </div>
               <br/>
               <div className="container">
-                  <ResearchBar activeElement="0"></ResearchBar>
+                  <div className="phase">
+                      <h4>Solution.</h4>
+                      <span><h2>Discover AppAssist</h2></span>
+                      <br/>
+                      <br/>
+                      <div className="row">
+                          <div className="col-lg-6 col-md-12 col-sm-12 no-shadow" id={"home--solution"}>
+                              <img src={ solution } alt={"solution"}/>
+                              {/*<div id="home-solution"></div>*/}
+                          </div>
+
+                          <div className="col-lg-6 col-md-12 col-sm-12 no-shadow atomic--svg">
+                              <br/>
+                              <div className="row">
+                                  <div className="col-2">
+                                      <img src={ resources } alt="tools" />
+                                  </div>
+                                  <div className="col-10">
+                                      <span><h4>in-app resources</h4></span>
+                                      <p>Curated articles and videos to complement the current section of the application.</p>
+                                  </div>
+                              </div>
+                              <br/>
+
+                              <div className="row">
+                                  <div className="col-2">
+                                      <img src={ glossary } alt="tools" />
+                                  </div>
+                                  <div className="col-10">
+                                      <span><h4>Loan Glossary</h4></span>
+                                      <p>Loan-specific domain knowledge with the definitions for relevant terms.</p>
+                                  </div>
+                              </div>
+                              <br/>
+
+                              <div className="row">
+                                  <div className="col-2">
+                                      <img src={ tools } alt="tools" />
+                                  </div>
+                                  <div className="col-10">
+                                      <span><h4>Loan Calculator</h4></span>
+                                      <p>A tool to calculate how much to borrow, in-school payment options, budget, and more.</p>
+                                  </div>
+                              </div>
+                              <br/>
+
+                              <div className="row ">
+                                  <div className="col-2">
+                                      <img src={ faqs } alt="tools" />
+                                  </div>
+                                  <div className="col-10">
+                                      <span><h4>faqs</h4></span>
+                                      <p>Contextualized answers to commonly asked questions.</p>
+                                  </div>
+                              </div>
+                              <br/>
+                              <NavLink className="nav-link" to={appRoutes.solution}>
+                                  <button type={"button"} className={"blob-btn"}> <h4>View our solution</h4>
+                                      <span className="blob-btn__inner">
+                                          <span className="blob-btn__blobs">
+                                            <span className="blob-btn__blob"></span>
+                                            <span className="blob-btn__blob"></span>
+                                            <span className="blob-btn__blob"></span>
+                                            <span className="blob-btn__blob"></span>
+                                          </span>
+                                      </span>
+                                  </button>
+                              </NavLink>
+                          </div>
+
+                      </div>
+                  </div>
+                  <div className="phase no-shadow">
+                      <span><h2>View Our Project In Depth</h2></span>
+                      <div className="row">
+                          <div className="col-lg-6 col-md-12">
+                            <img src={ stakeholdermap } alt={ "stacy_jackie" }/>
+                          </div>
+                          <div className="col-lg-6 col-md-12">
+                             <p>
+                                 As student loan providers increasingly focus on attracting college-bound customers, they often overlook the needs of the true primary borrower - parents. Despite a plethora of articles, videos, and tools that exist on the internet, their lack of context leaves them under-utilized, leaving parents to default to sources within their comfort zone.
+                             </p>
+                              <p>
+                                  Through 8 months of iterative research and design, we augmented DSL’s student loan application to close this “resource gap.” By making existing resources more accessible to parents and students alike, our solution helps borrowers regain a sense of agency and make confident loan decisions.
+                              </p>
+                          </div>
+                      </div>
+                      <div className="row">
+                          <NavLink className="nav-link" to={appRoutes.problem}>
+                              <button type={"button"} className={"blob-btn button--orange"}><h4>Design Process</h4>
+                                  <span className="blob-btn__inner">
+                                          <span className="blob-btn__blobs">
+                                            <span className="blob-btn__blob"></span>
+                                            <span className="blob-btn__blob"></span>
+                                            <span className="blob-btn__blob"></span>
+                                            <span className="blob-btn__blob"></span>
+                                          </span>
+                                      </span>
+                              </button>
+                          </NavLink>
+                      </div>
+                  </div>
+                  <div className="phase no-shadow">
+                      <span><h2><span className={"tooltips"}>Meet the Team
+                          <Tooltip content={TooltipList[0]}/>
+                      </span></h2></span>
+
+                      <div className="row">
+                          <div className="col-12">
+                              <img src={ team } alt={ "team" }/>
+                          </div>
+                      </div>
+                      <br/>
+                      <div className="row">
+                          <div className="col-lg-6 col-md-12">
+                              <p>
+                                  We are a team of 5 Human-Computer Interaction Masters students from Carnegie Mellon University. For the last 8 months, we’ve been working on a capstone project with Discover Student Loans. Our backgrounds are diverse - some of us are researchers, some are designers, and some are computer scientists. While we each have different strengths, this project gave us the opportunity to wear a lot of different hats and learn from each other. We share the same high-level goal—to learn the process of UX research and design, and build a solution that solves a validated problem.
+                              </p>
+                              <NavLink className="nav-link" to={appRoutes.about}>
+                                <button type={"button"} className={"blob-btn"}> <h4>Meet the team</h4>
+                                    <span className="blob-btn__inner">
+                                          <span className="blob-btn__blobs">
+                                            <span className="blob-btn__blob"></span>
+                                            <span className="blob-btn__blob"></span>
+                                            <span className="blob-btn__blob"></span>
+                                            <span className="blob-btn__blob"></span>
+                                          </span>
+                                      </span>
+                                </button>
+                              </NavLink>
+                          </div>
+                      </div>
+                  </div>
+                  <div className="phase no-shadow img--xs">
+                      <span><h2> <span className={"tooltips"}>Our Client
+                          <Tooltip content={TooltipList[1]}/>
+                      </span></h2></span>
+                      <div className="row justify-content-center">
+                          <div className="col-lg-4 col-md-12">
+                              <img src={ client } alt={ "client" }/>
+                          </div>
+                          <div className="col-lg-1"></div>
+                          <div className="col-lg-5 col-md-12">
+                              <br/>
+                              <h3>DISCOVER STUDENT LOANS</h3>
+                              <br/>
+                              <p>
+                                  Discover Student Loans is the private student loan provider from Discover Bank, a trusted financial institution for 100 years. Discover Bank offers a variety of financial products, including FDIC-insured savings accounts, credit cards, personal loans and student loans.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
               </div>
           </div>
       );

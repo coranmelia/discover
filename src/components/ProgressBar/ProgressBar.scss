@@ -1,0 +1,275 @@
+@import "../../assets/styles/layout";
+
+@mixin arrow-icon {
+  content: '';
+  width: 1.5rem;
+  height: 1.5rem;
+  border-width: .4vmin .4vmin 0 0;
+  border-style: solid;
+  border-color: $mid-gray;
+  transition: .2s ease;
+  display: block;
+  transform-origin: 100% 0;
+}
+
+.progressbar {
+  width: 100%;
+  display: inline-flex;
+  position: relative;
+  a {
+    text-decoration: none;
+    > div {
+      h1,h5 {
+        -webkit-transition: color 300ms;
+        transition:color 300ms;
+      }
+
+    }
+    > div:hover {
+      h1,h5 {
+        color: $main-text !important;
+
+      }
+    }
+  }
+  .arrow-left, .arrow-right {
+    display: none;
+  }
+  .progressbar-container {
+
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    .progressbar-complete {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      //background-color: #5225bd;
+      border-radius: 10px;
+      animation: g 2500ms infinite ease-in-out;
+      z-index: 2;
+
+      .progressbar-liquid {
+        z-index: 1;
+        width: 180px;
+        height: 180px;
+        animation: g 2500ms infinite ease-in-out, r 3000ms infinite cubic-bezier(0.5, 0.5, 0.5, 0.5);
+        position: absolute;
+        right: -15px;
+        top: -40px;
+        background-color: #5225bd;
+        border-radius: 40%;
+      }
+    }
+
+    .progress {
+      z-index: 2;
+      font-weight: 800;
+      height: 100px;
+      background: none;
+      width: 100%;
+      text-align: center;
+    }
+
+    .col-20-p {
+      width: 20%;
+      text-align: center;
+      margin: auto 0;
+
+      h1, h5 {
+        color: $mid-gray;
+      }
+
+      h1 {
+        font-size: 2.8rem;
+      }
+
+      h5 {
+        line-height: 1.5;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+        text-align: left;
+        padding-left: 20px;
+        font-family: "Open Sans Regular", sans-serif;
+        text-transform: uppercase;
+      }
+
+      .progressbar-past {
+        h1, h5 {
+          color: white;
+        }
+
+        h5 {
+          font-family: "Open Sans Bold", sans-serif;
+        }
+      }
+    }
+
+    border: 1px solid rgba(212, 212, 212, 0.6);
+    box-sizing: border-box;
+    /* Card Shadow */
+    box-shadow: 0 0 25px rgba(65, 65, 65, 0.1);
+  }
+}
+
+
+@keyframes g {
+  0% { background-color: $primary-orange; }
+  50% { background-color: $discover-orange; }
+  100% { background-color: $primary-orange; }
+}
+
+@keyframes r {
+  from { transform: rotate(0deg); }
+  from { transform: rotate(360deg); }
+}
+@media screen and (max-width:1199px) { //smaller than xl
+  .progressbar-container {
+    .col-20-p {
+      h1 {
+        display: none;
+      }
+      h5 {
+        text-transform: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:991px){ // smaller than lg
+  .progressbar {
+    .arrow-left, .arrow-right {
+      z-index: 3;
+      position: absolute;
+      top: 60px;
+      margin-top: 30px;
+      display: inline-flex;
+      max-width: 23%;
+      h5 {
+        color: $mid-gray;
+        font-family: "Open Sans SemiBold", sans-serif;
+      }
+      .arrow{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-top: 8px;
+      }
+    }
+    .arrow-left{
+      left: 0;
+      .arrow {
+        transform: rotate(-135deg);
+        &::before {
+          @include arrow-icon;
+        }
+      }
+    }
+    .arrow-right{
+      right: 0;
+      .arrow {
+        transform: rotate(45deg);
+        &::after {
+          @include arrow-icon;
+        }
+      }
+      span{
+        text-align: right;
+      }
+    }
+    .progressbar-container {
+      width: 50%;
+      margin-left: 25%;
+
+      .progressbar-complete {
+        display: none;
+      }
+
+      .col-20-p {
+        width: 100%;
+
+        h1, h5 {
+          color: $primary-orange !important;
+        }
+
+        h1 {
+          font-size: 3.2rem;
+          display: block !important;
+        }
+
+        h5 {
+          font-size: 1.3rem;
+          text-transform: uppercase;
+        }
+      }
+
+      .col-20-p.progress-sm-disabled {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:767px){
+  .progressbar {
+    .arrow-left, .arrow-right {
+      .arrow{
+        margin-top: 3px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:575px){ // mobile
+  .progressbar {
+    .arrow-left, .arrow-right {
+      max-width: 30px;
+      span {
+        display: none;
+      }
+    }
+    .arrow-left {
+      .arrow {
+        transform: rotate(-135deg);
+      }
+    }
+    .progressbar-container {
+      width: 80%;
+      margin-left: 10%;
+
+      .col-20-p {
+        h1 {
+          width: 20%;
+        }
+
+        h5 {
+          width: 60%;
+          padding-left: 25px;
+          font-size: 1.25rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:320px) { // xs mobile
+  .progressbar {
+    .progressbar-container {
+      .col-20-p {
+        h5 {
+          width: 60%;
+          padding-left: 30px;
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}

@@ -30,8 +30,8 @@ export default class ResearchBar extends Component{
                                 <Link
                                     key={title.id}
                                     to={title.id === 1 || title.id === 5 ?
-                                        title.id === 1 ? `${appRoutes.problem}` : `${appRoutes.solution}`
-                                        : `${appRoutes.problem}/${title.url}`}>
+                                        title.id === 1 ? `${appRoutes.problem}` : `${appRoutes.mvp}`
+                                        : `${appRoutes.process}/${title.url}`}>
                                     <Block key={title.id}
                                            isActive={title.id === activeElement}
                                            onSelect={this._onSectionSelect.bind(this)}

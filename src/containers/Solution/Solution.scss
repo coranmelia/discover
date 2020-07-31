@@ -1,0 +1,37 @@
+@import "src/assets/styles/colors";
+
+.bg-light-green{
+  width: 100%;
+  margin-top: 55px;
+  background: $asparagus;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  color: white;
+  img {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+}
+
+#solution {
+  img{
+    width: 150%;
+    margin-left: -55%;
+    max-width: 1200px;
+  }
+}
+.bg-dark-green {
+  background: $dark-green;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  color: white;
+  h2, h4, h5, h6{
+    color: white;
+  }
+  h1, h3 {
+    color: $fern;
+  }
+}

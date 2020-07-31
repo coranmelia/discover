@@ -5,10 +5,11 @@ import appRoutes from "./shared/appRoutes";
 import NavBar from "./containers/NavBar/NavBar";
 import Footer from "./containers/Footer/Footer";
 import HomePage from "./containers/HomePage/HomePage";
-import ResearchProblem from "./containers/ResearchPage/ResearchProblem";
-import ResearchExp from "./containers/ResearchPage/ResearchPhase/ResearchExp";
-import ResearchGen from "./containers/ResearchPage/ResearchPhase/ResearchGen";
-import ResearchEval from "./containers/ResearchPage/ResearchPhase/ResearchEval";
+import Problem from "./containers/Process/Phases/Problem";
+import Exploratory from "./containers/Process/Phases/Exploratory";
+import Generative from "./containers/Process/Phases/Generative";
+import NeedValidation from "./containers/Process/Phases/NeedValidation";
+import MVP from "./containers/Process/Phases/MVP";
 import AboutUs from "./containers/AboutUs/AboutUs";
 import Solution from "./containers/Solution/Solution";
 import "./App.css";
@@ -25,16 +26,19 @@ class App extends React.Component {
                             <HomePage />
                         </Route>
                         <Route exact path={appRoutes.problem}>
-                            <ResearchProblem />
+                            <Problem />
                         </Route>
                         <Route exact path={appRoutes.exploratory}>
-                            <ResearchExp />
+                            <Exploratory />
                         </Route>
                         <Route exact path={appRoutes.generative}>
-                            <ResearchGen />
+                            <Generative />
                         </Route>
-                        <Route exact path={appRoutes.evaluative}>
-                            <ResearchEval />
+                        <Route exact path={appRoutes.need}>
+                            <NeedValidation />
+                        </Route>
+                        <Route exact path={appRoutes.mvp}>
+                            <MVP />
                         </Route>
                         <Route exact path={appRoutes.solution}>
                             <Solution/>

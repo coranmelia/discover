@@ -1,22 +1,19 @@
-@import '../../../assets/styles/colors';
-@import '../../../assets/styles/layout';
 .phase{
-    margin-top: 30px;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
     width: 100%;
-    padding: 30px 5% 30px 5%;
+    padding: 30px 0;
 
     span {
         width: 100%;
-        text-align: center;
+        text-align: left;
 
         h2 {
             margin-bottom: 30px;
-            color: $default-text;
         }
     }
     h4 {
         margin-bottom: 20px;
-        color: $default-title;
     }
     p {
         margin-bottom: 20px;
@@ -55,3 +52,4 @@
     }
     margin-bottom: 20px;
 }
+

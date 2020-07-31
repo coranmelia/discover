@@ -4,9 +4,10 @@
   "private": true,
   "homepage": "http://coranmelia.github.io/discover",
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "lodash": "^4.17.15",
-    "node-sass": "^4.14.0",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.19",
+    "node-sass": "^4.14.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-image-magnifiers": "^1.3.1",
