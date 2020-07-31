@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/discover/static/css/main.e13ca41a.chunk.css",
-    "main.js": "/discover/static/js/main.4fbeb23b.chunk.js",
-    "main.js.map": "/discover/static/js/main.4fbeb23b.chunk.js.map",
+    "main.css": "/discover/static/css/main.3e14b671.chunk.css",
+    "main.js": "/discover/static/js/main.b6db1c41.chunk.js",
+    "main.js.map": "/discover/static/js/main.b6db1c41.chunk.js.map",
     "runtime-main.js": "/discover/static/js/runtime-main.4027fe92.js",
     "runtime-main.js.map": "/discover/static/js/runtime-main.4027fe92.js.map",
     "static/css/2.9de105d4.chunk.css": "/discover/static/css/2.9de105d4.chunk.css",
     "static/js/2.7bb5dc15.chunk.js": "/discover/static/js/2.7bb5dc15.chunk.js",
     "static/js/2.7bb5dc15.chunk.js.map": "/discover/static/js/2.7bb5dc15.chunk.js.map",
     "index.html": "/discover/index.html",
-    "precache-manifest.feff2cd495bddec9b7479a1ceb665e77.js": "/discover/precache-manifest.feff2cd495bddec9b7479a1ceb665e77.js",
+    "precache-manifest.1ea338822ba6562b0281c1e03f3d5ad7.js": "/discover/precache-manifest.1ea338822ba6562b0281c1e03f3d5ad7.js",
     "service-worker.js": "/discover/service-worker.js",
     "static/css/2.9de105d4.chunk.css.map": "/discover/static/css/2.9de105d4.chunk.css.map",
-    "static/css/main.e13ca41a.chunk.css.map": "/discover/static/css/main.e13ca41a.chunk.css.map",
+    "static/css/main.3e14b671.chunk.css.map": "/discover/static/css/main.3e14b671.chunk.css.map",
     "static/js/2.7bb5dc15.chunk.js.LICENSE.txt": "/discover/static/js/2.7bb5dc15.chunk.js.LICENSE.txt",
     "static/media/0.png": "/discover/static/media/0.de948c32.png",
     "static/media/1.png": "/discover/static/media/1.b1f04b42.png",
@@ -77,7 +77,7 @@
     "static/media/storyboard3.png": "/discover/static/media/storyboard3.59e3f3b1.png",
     "static/media/team-md.jpg": "/discover/static/media/team-md.ec16b0ff.jpg",
     "static/media/team-sm.jpg": "/discover/static/media/team-sm.a6f3550a.jpg",
-    "static/media/team.jpg": "/discover/static/media/team.af2c8c8d.jpg",
+    "static/media/team.jpg": "/discover/static/media/team.c23f832c.jpg",
     "static/media/tools.svg": "/discover/static/media/tools.b1223d24.svg",
     "static/media/toolsW.svg": "/discover/static/media/toolsW.dbba1316.svg"
   },
@@ -85,7 +85,7 @@
     "static/js/runtime-main.4027fe92.js",
     "static/css/2.9de105d4.chunk.css",
     "static/js/2.7bb5dc15.chunk.js",
-    "static/css/main.e13ca41a.chunk.css",
-    "static/js/main.4fbeb23b.chunk.js"
+    "static/css/main.3e14b671.chunk.css",
+    "static/js/main.b6db1c41.chunk.js"
   ]
 }
