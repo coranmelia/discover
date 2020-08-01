@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/discover/static/css/main.e2c7beee.chunk.css",
-    "main.js": "/discover/static/js/main.c595075f.chunk.js",
-    "main.js.map": "/discover/static/js/main.c595075f.chunk.js.map",
+    "main.css": "/discover/static/css/main.921341b9.chunk.css",
+    "main.js": "/discover/static/js/main.5bbe037f.chunk.js",
+    "main.js.map": "/discover/static/js/main.5bbe037f.chunk.js.map",
     "runtime-main.js": "/discover/static/js/runtime-main.4027fe92.js",
     "runtime-main.js.map": "/discover/static/js/runtime-main.4027fe92.js.map",
     "static/css/2.9de105d4.chunk.css": "/discover/static/css/2.9de105d4.chunk.css",
     "static/js/2.c2a41b19.chunk.js": "/discover/static/js/2.c2a41b19.chunk.js",
     "static/js/2.c2a41b19.chunk.js.map": "/discover/static/js/2.c2a41b19.chunk.js.map",
     "index.html": "/discover/index.html",
-    "precache-manifest.f91f36b0826a779a3dcfa1e8c5e00b9e.js": "/discover/precache-manifest.f91f36b0826a779a3dcfa1e8c5e00b9e.js",
+    "precache-manifest.cbe7409561878d0e79903a78c5dadcf0.js": "/discover/precache-manifest.cbe7409561878d0e79903a78c5dadcf0.js",
     "service-worker.js": "/discover/service-worker.js",
     "static/css/2.9de105d4.chunk.css.map": "/discover/static/css/2.9de105d4.chunk.css.map",
-    "static/css/main.e2c7beee.chunk.css.map": "/discover/static/css/main.e2c7beee.chunk.css.map",
+    "static/css/main.921341b9.chunk.css.map": "/discover/static/css/main.921341b9.chunk.css.map",
     "static/js/2.c2a41b19.chunk.js.LICENSE.txt": "/discover/static/js/2.c2a41b19.chunk.js.LICENSE.txt",
     "static/media/0.png": "/discover/static/media/0.de948c32.png",
     "static/media/1.png": "/discover/static/media/1.b1f04b42.png",
@@ -20,7 +20,7 @@
     "static/media/3.png": "/discover/static/media/3.ef51e724.png",
     "static/media/4.jpg": "/discover/static/media/4.a12beeb8.jpg",
     "static/media/7.jpg": "/discover/static/media/7.904ce22b.jpg",
-    "static/media/7areas.jpeg": "/discover/static/media/7areas.f11e831b.jpeg",
+    "static/media/7areas.jpeg": "/discover/static/media/7areas.5774ea7c.jpeg",
     "static/media/FAQs.svg": "/discover/static/media/FAQs.95aba9c9.svg",
     "static/media/FAQsW.svg": "/discover/static/media/FAQsW.ff231c54.svg",
     "static/media/Glossary.svg": "/discover/static/media/Glossary.2a3a1e9e.svg",
@@ -78,7 +78,7 @@
     "static/js/runtime-main.4027fe92.js",
     "static/css/2.9de105d4.chunk.css",
     "static/js/2.c2a41b19.chunk.js",
-    "static/css/main.e2c7beee.chunk.css",
-    "static/js/main.c595075f.chunk.js"
+    "static/css/main.921341b9.chunk.css",
+    "static/js/main.5bbe037f.chunk.js"
   ]
 }
