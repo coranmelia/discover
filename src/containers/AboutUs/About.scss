@@ -20,6 +20,13 @@
     h3 {
       margin-bottom: 0;
       padding-bottom: 15px;
+      //display: inline-flex;
+      .contact svg {
+        margin-left: 0.5rem;
+        height: 1.5rem;
+        width: 1.5rem;
+        fill: $light-gray;
+      }
     }
     h4 {
       font-family: "Open Sans Light", sans-serif;

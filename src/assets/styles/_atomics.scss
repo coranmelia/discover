@@ -7,6 +7,7 @@ button {
   color: white;
   background: $asparagus;
   cursor: pointer;
+  text-decoration: none;
   h4 {
     margin: 0 !important;
     padding: 0 !important;
@@ -102,6 +103,7 @@ $borderW: 2px;
     border-radius: 100%;
     transform: translate3d(0,120%,0) scale(1.7);
     transition: transform 0.5s;
+
 
     @supports(filter: url('#goo')) {
       transform: translate3d(0,120%,0) scale(1.4);

@@ -7,7 +7,7 @@ import "../Research.scss";
 import PhotoZoom from "../../../components/PhotoZoom/PhotoZoom";
 import SM1 from "../../../assets/artifacts/sm1.png";
 import SM2 from "../../../assets/artifacts/sm2.png";
-import JM from "../../../assets/artifacts/jm.png";
+import JM from "../../../assets/artifacts/jm.jpg";
 import PG from "../../../assets/artifacts/pg.jpg";
 import PL from "../../../assets/artifacts/pl.jpg";
 import SH from "../../../assets/artifacts/sh.jpg";
@@ -99,7 +99,7 @@ const Exploratory = () => {
                         </div>
                         <br/>
                         <div className="row">
-                            <div className="col-12 no-shadow">
+                            <div className="col-12">
                                 <PhotoZoom src={JM} alt={"JM"}/>
                             </div>
                         </div>
