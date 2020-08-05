@@ -39,8 +39,8 @@ render() {
                             <div className="col-10">
                                 <p>
                                     We are the class of 2020 MHCI Discover team at Carnegie Mellon University!
-                                    Our members came from a variety of backgrounds range from Visual Design
-                                    to Applied Psychological Research to Software Development and we get together
+                                    Our members came from a variety of backgrounds range from Media Art
+                                    to Cognitive Research to Software Development. We are here together
                                     to redesign the student loan experience at Discover Student Loans through
                                     Human-Computer Interaction.
                                 </p>
@@ -49,7 +49,6 @@ render() {
                     </div>
 
                     <br/>
-
 
                     {list.map((person) => {
                         return (
@@ -68,7 +67,7 @@ render() {
                     <div className="container">
                         <div className="row justify-content-center">
                             <span><h2>Acknowledgements</h2></span>
-                            <div className="col-lg-10">
+                            <div className="col-lg-10 acknowledgements">
                                 <p>
                                     This year, the COVID-19 pandemic started 2 months after the beginning of our capstone project.
                                     Ever since then, we had to work remotely, and it was not an easy time for us.
@@ -83,13 +82,13 @@ render() {
                                 </p>
                                 <br/>
                                 <p>
-                                    I would like to give special thanks to Stacy Kellner, who designed the awesome "Interview the interviewers"
-                                    activity for our team. Our <span className={"tooltips"}>team memory tooltips</span> which added warmth and
-                                    sweetness to this website credits to her hard work!
+                                    I would like to give special thanks to our team member Stacy Kellner, who designed the awesome "Interview the interviewers"
+                                    activity for our team. The <span className={"tooltips"}>team memory tooltips</span> which added sweetness
+                                    and warmth to this website credits to her hard work!
                                 </p>
                                 <br/>
                                 <p>
-                                    Design & development of this website credit to Cora Wang. Please feel free to contact for questions or concerns.
+                                    Design & development of this website credit to Cora Wang. Please feel free to <a href={"mailto:corawang@cmu.edu"}>contact</a> for questions or concerns.
                                 </p>
                                 <br/>
                                 <p>

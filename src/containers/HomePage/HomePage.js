@@ -54,7 +54,7 @@ export default class homePage extends React.Component{
                                       <img src={ resources } alt="tools" />
                                   </div>
                                   <div className="col-10">
-                                      <span><h4>in-app resources</h4></span>
+                                      <span><h4 className={"bold"}>in-app resources</h4></span>
                                       <p>Curated articles and videos to complement the current section of the application.</p>
                                   </div>
                               </div>
@@ -65,7 +65,7 @@ export default class homePage extends React.Component{
                                       <img src={ glossary } alt="tools" />
                                   </div>
                                   <div className="col-10">
-                                      <span><h4>Loan Glossary</h4></span>
+                                      <span><h4 className={"bold"}>Loan Glossary</h4></span>
                                       <p>Loan-specific domain knowledge with the definitions for relevant terms.</p>
                                   </div>
                               </div>
@@ -76,7 +76,7 @@ export default class homePage extends React.Component{
                                       <img src={ tools } alt="tools" />
                                   </div>
                                   <div className="col-10">
-                                      <span><h4>Loan Calculator</h4></span>
+                                      <span><h4 className={"bold"}>Loan Calculator</h4></span>
                                       <p>A tool to calculate how much to borrow, in-school payment options, budget, and more.</p>
                                   </div>
                               </div>
@@ -87,7 +87,7 @@ export default class homePage extends React.Component{
                                       <img src={ faqs } alt="tools" />
                                   </div>
                                   <div className="col-10">
-                                      <span><h4>faqs</h4></span>
+                                      <span><h4 className={"bold"}>faqs</h4></span>
                                       <p>Contextualized answers to commonly asked questions.</p>
                                   </div>
                               </div>

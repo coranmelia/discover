@@ -60,7 +60,7 @@ class Generative extends React.Component {
                                             plan will <b>help them make a faster decision</b>.</p>
                                         <p>Because people make decisions within their comfort zone, offering a financial
                                             package which includes student loans and other products to young adults will
-                                            <b>convert more DSL customers!</b>.</p>
+                                            <b> convert more customers!</b></p>
                                     </div>
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <br/>

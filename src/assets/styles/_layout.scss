@@ -1,6 +1,10 @@
 @import "colors";
 @import "atomics";
 
+body {
+  color: $main-text;
+}
+
 h1 {
   font-size: 3.2rem;
   font-family: "Open Sans ExtraBold", sans-serif;
