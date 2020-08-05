@@ -1,7 +1,7 @@
-# MHCI Responsive Website
+# Discover Student Loans x CMU MHCI Project Website
 
 
-This project hosts a responsive website of MHCI Discover Team. See the website at [http://coranmelia.github.io/discover](http://coranmelia.github.io/discover)
+This project hosts a responsive website of MHCI Discover Team. See the website at [http://wcora.github.io/discover](http://coranmelia.github.io/discover)
 
 To use this template:
 
