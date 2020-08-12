@@ -77,7 +77,13 @@ render() {
                                 </p>
                                 <br/>
                                 <p>
-                                    We'd like to give special thanks to Derek Wahila & Jason Spector, our faculty advisors, and Skip Shelly,
+                                    I'd like to thank Jake Bennett and Jon Graupman from Discover Student Loans who continuously gave
+                                    us constructive feedback, suggestions, and encouragement throughout the process to guide us moving forward.
+                                    I believe their support has been very motivating to all of us.
+                                </p>
+                                <br/>
+                                <p>
+                                    I'd like to give special thanks to Derek Wahila & Jason Spector, our faculty advisors, and Skip Shelly,
                                     our program director. This work could not have been completed without their support.
                                 </p>
                                 <br/>
@@ -94,7 +100,7 @@ render() {
                                 <p>
                                     And lastly, thank you for visiting our website :)
                                 </p>
-                                {/*<p className={"text-right"}> — Cora</p>*/}
+                                <p className={"text-right"}> — Cora Wang</p>
                                 <br/>
                             </div>
                         </div>
